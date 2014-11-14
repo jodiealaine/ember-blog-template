@@ -3,3 +3,10 @@
 	<li><a href="#">Sample Post</li>
 </ul>
 <button class="btn btn-primary" {{action 'showRealName'}}>Click here to learn more about 'example name'!</button>
+
+{{#if isPictureShowing}}
+	<p><img src="http://placehold.it/350x150" alt="A photo of dracula"></p>
+	<button class="btn btn-info" {{action 'hidePicture'}}>Click here to hide the picture</button>
+{{else}}
+	<button class="btn btn-info" {{action 'showPicture'}}>Click here to see a picture</button>
+{{/if}}
