@@ -1,22 +1,13 @@
-<div class="container">
-	<nav class='navbar navbar-default' role='navigation'>
-		<ul class='nav navbar-nav'>
-			<li>{{#link-to 'posts'}}Posts{{/link-to}}</li>
-			<li>{{#link-to 'about'}}About{{/link-to}}</li>
-			<li>{{#link-to 'contact'}}Contact{{/link-to}}</li>
+<h1> Get in Touch!  </h1>
+<div class="row">
+	<div class="col-md-6">
+		<ul>
+			<li>{{#link-to 'phone'}}Phone{{/link-to}}</li>
+			<li>{{#link-to 'email'}}Email{{/link-to}}</li>
 		</ul>
-	</nav>
-	<h1> Get in Touch!  </h1>
-	<div class="row">
-		<div class="col-md-6">
-			<ul>
-				<li>{{#link-to 'phone'}}Phone{{/link-to}}</li>
-				<li>{{#link-to 'email'}}Email{{/link-to}}</li>
-			</ul>
-		</div>
-		<div class="col-md-6">
-      {{outlet}}
-		</div>
+	</div>
+	<div class="col-md-6">
+    {{outlet}}
 	</div>
 </div>
 
