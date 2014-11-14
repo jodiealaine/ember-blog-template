@@ -20,17 +20,17 @@ var comments = [
 	{
 		id: '1',
 		postId: '3',
-		text: 'thanks so much for this article'
+		text: 'thanks so much for this article thanks'
 	},
 	{
 		id: '2',
 		postId: '3',
-		text: 'thanks so much for this article'
+		text: 'thanks so much for this article really!'
 	},
 	{
 		id: '3',
 		postId: '1',
-		text: 'thanks so much for this article'
+		text: 'thanks so much for this article for real!'
 	},
 	{
 		id: '4',
