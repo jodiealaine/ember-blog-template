@@ -6,21 +6,25 @@
 		<script src="libs/jquery-2.1.1.min.js"></script>
 		<script src="libs/handlebars-v1.3.0.js"></script>
 		<script src="libs/ember.js"></script>
+		<script src="libs/ember-data.js"></script>
 		<script src="libs/ember-handlebars-loader-0.0.1.js"></script>
 		<script src="libs/bootstrap.min.js"></script>
+		<script src="libs/localstorage_adapter.js"></script>
 		<script src="blogger.js"></script>
 		<script src="router.js"></script>
 		<script src="store.js"></script>
 		<script src="routes/posts.js"></script>
 		<script src="routes/post.js"></script>
 
-		<script src="routes/recent-comments.js"></script>
+		<script src="routes/comments.js"></script>
 		<script src="controllers/about.js"></script>
 		<script src="controllers/contact.js"></script>
 		<script src="controllers/post.js"></script>
 		<script src="controllers/posts.js"></script>
+		<script src="models/post.js"></script>
+		<script src="models/comment.js"></script>
 		<script>
-			EmberHandlebarsLoader.loadTemplates(['posts', 'about', 'contact', 'phone', 'email', 'application', 'recent-comments', 'post']);
+			EmberHandlebarsLoader.loadTemplates(['posts', 'about', 'contact', 'phone', 'email', 'application', 'comments', 'post']);
 		</script>
 	</head>
 	<body>
