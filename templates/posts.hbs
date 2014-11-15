@@ -1,6 +1,8 @@
 <h1> Blog Name </h1>
 <ul>
 	{{#each}}
-	 <li>{{title}}</li>
+	 <li>{{#link-to 'post' this.id}}{{title}}{{/link-to}}</li>
 	{{/each}}
 </ul>
+
+<button {{action 'sortByTitle'}}>Sort By Title</button>
