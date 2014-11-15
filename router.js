@@ -6,5 +6,8 @@ Blogger.Router.map(function(){
 		this.resource('email');
 	});
 	this.resource('comments');
-	this.resource('post', {path: 'posts/:post_id'});
+	this.resource('post', {path: 'posts/:post_id'}, function() {
+		this.resource('new-comment');
+	});
+	this.resource('new-post');
 });
